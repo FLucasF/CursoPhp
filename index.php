@@ -9,6 +9,18 @@
     <h1>Hello world</h1>
     <?php 
         echo "Hello World!";
-    ?>   
+       
+        $expression = false;    
+    ?>
+
+    <!-- If -->
+
+
+    <?php if($expression == true): ?>
+        Isso sera demostrado
+    <?php else: ?> 
+        senão isso irá aparecer.
+    <?php endif; ?>    
+
 </body>
 </html>
